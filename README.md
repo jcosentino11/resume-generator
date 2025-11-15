@@ -1,9 +1,23 @@
-# Resume Generator
+# resume-generator
 
-Turn bullet points into a professional-looking resume, using [Pandoc](https://pandoc.org) and [LaTeX](https://www.latex-project.org).
+A project born from the desire to overengineer what could have been a Google Doc.
 
+`resume-generator` turns resume bullet points into a professional-looking PDF.
+
+## Quick Start
+
+Install deps
+```
+brew install pandoc mactex
+```
+
+Edit resume
 ```
 nano source.md
+```
+
+Generate PDF file
+```
 make
 ```
 
