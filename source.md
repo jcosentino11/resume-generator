@@ -7,10 +7,18 @@ website: https://josephcosentino.me
 website-text: josephcosentino.me
 
 experience:
+  - company: Bloomberg
+    location: New York, New York
+    position: Senior Software Engineer
+    dates: June 2025 -- Present
+    highlights:
+      - Maintained and enhanced backend services, frontend, infrastructure, and operational tooling for a high-availability message broker platform
+      - Collaborated on architectural design and implementation of next-generation message broker platform
+      - Improved operational reliability by refactoring legacy code, updating on-call runbooks and dashboards
   - company: Amazon Web Services
     location: Seattle, Washington
     position: Software Engineer II - Amazon MQ
-    dates: Sept 2024 -- Present
+    dates: Sept 2024 -- June 2025
     highlights:
       - Designed a public, serverless API for safely deleting broker configurations
       - Developed and implemented a scalable process for backfilling millions of DynamoDB items across 20+ AWS regions while maintaining data integrity
@@ -52,13 +60,15 @@ experience:
 
 skills:
   - category: Languages
-    items: Java, Python, Golang, TypeScript, Erlang, C++
+    items: Java, Golang, TypeScript, Python, Erlang, C++
   - category: AWS
     items: DynamoDB, Lambda, ECS, EC2, SNS, SQS, CloudWatch, S3, API Gateway
   - category: Tools
     items: CloudFormation, CDK, Terraform, Packer, Maven, Concourse CI
   - category: Protocols
     items: HTTP, gRPC, MQTT
+  - category: Frameworks
+    items: React, Spring
 
 education:
   - school: West Chester University of Pennsylvania, Honors College
